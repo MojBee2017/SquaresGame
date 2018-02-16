@@ -7,9 +7,10 @@ while True:
     while my_square!= comp_square:
         if my_square > comp_square:
             print("That's too high. Try again")
-    
+            my_square=int(input("What is the square of "+ str(num)+":" ))
         elif my_square < comp_square:
             print("That's too low. Try again")
+            my_square=int(input("What is the square of "+ str(num)+":" ))
         
       
     print("That's perfect. Well done!")
