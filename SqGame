@@ -1,0 +1,18 @@
+num=1
+
+while True:
+    comp_square=num**2
+    my_square=int(input("What is the square of "+ str(num)+":" ))
+    
+    while my_square!= comp_square:
+        if my_square > comp_square:
+            print("That's too high. Try again")
+    
+        elif my_square < comp_square:
+            print("That's too low. Try again")
+        
+      
+    print("That's perfect. Well done!")
+    num=num+1
+
+
